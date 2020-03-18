@@ -52,6 +52,10 @@ class Owner
     end
   end
   
+  def list_pets
+    
+  end
+  
   def save
     @@all << self
   end
