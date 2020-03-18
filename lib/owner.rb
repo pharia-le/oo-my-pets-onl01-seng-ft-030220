@@ -50,7 +50,6 @@ class Owner
       dog.mood = "nervous"
       dog.owner = nil
     end
-    # binding.pry
   end
   
   def save
