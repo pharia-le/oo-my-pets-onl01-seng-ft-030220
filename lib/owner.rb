@@ -37,6 +37,10 @@ class Owner
     dogs.each {|dog| dog.mood = "happy"}
   end
   
+  def feed_cats
+    cats.each {|cat| cat.mood = "happy"}
+  end
+  
   def save
     @@all << self
   end
