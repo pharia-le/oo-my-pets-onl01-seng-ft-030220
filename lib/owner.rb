@@ -29,9 +29,9 @@ class Owner
     cat = Cat.new(name, self)
   end
   
-  # def buy_dog(name)
-  #   Dog.all.find {|dog| dog.name == name}.owner = self
-  # end
+  def buy_dog(name)
+    Dog.all.find {|dog| dog.name == name}.owner = self
+  end
   
   def save
     @@all << self
