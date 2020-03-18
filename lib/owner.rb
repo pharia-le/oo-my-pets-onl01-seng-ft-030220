@@ -26,8 +26,8 @@ class Owner
   end
   
   def buy_cat(name)
-    binding.pry
-    Cat.all.find {|cat| cat.name == name}.owner = self
+    cat = Cat.new(name)
+    cat.owner = self
   end
   
   # def buy_dog(name)
