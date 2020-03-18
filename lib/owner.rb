@@ -45,6 +45,7 @@ class Owner
     cats.each {|cat| cat.mood = "nervous"}
     dogs.each {|dog| dog.mood = "nervous"}
     cats.clear
+    binding.pry
     dogs.clear
   end
   
