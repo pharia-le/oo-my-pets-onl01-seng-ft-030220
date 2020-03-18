@@ -41,6 +41,10 @@ class Owner
     cats.each {|cat| cat.mood = "happy"}
   end
   
+  def sell_pets
+      
+  end
+  
   def save
     @@all << self
   end
