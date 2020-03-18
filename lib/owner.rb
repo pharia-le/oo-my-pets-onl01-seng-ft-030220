@@ -45,9 +45,12 @@ class Owner
     cats.each do |cat|
       cat.mood = "nervous"
       cat.owner = nil
-    dogs.each {|dog| dog.mood = "nervous"}
-    cats.clear
-    dogs.clear
+    end
+    dogs.each do |dog|
+      dog.mood = "nervous"
+      dog.owner = nil
+    end
+    binding.pry
   end
   
   def save
